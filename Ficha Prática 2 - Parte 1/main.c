@@ -16,8 +16,13 @@
 /*
  * 
  */
-int main(int argc, char** argv) {
-
-    return (EXIT_SUCCESS);
+int main() {
+    //ex1();
+    //ex2();
+    //ex3();
+    //ex4();
+    //ex5_1();
+    ex5_2();
+    return 0;
 }
 
