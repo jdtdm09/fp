@@ -1,1 +1,1 @@
-  Ficha Prática 1 - Fundamentos de Programação.
+  Fichas Práticas - Fundamentos de Programação.
