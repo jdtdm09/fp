@@ -35,6 +35,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/ex1.o \
+	${OBJECTDIR}/ex2.o \
+	${OBJECTDIR}/ex3.o \
+	${OBJECTDIR}/ex4.o \
+	${OBJECTDIR}/ex5.o \
 	${OBJECTDIR}/main.o
 
 
@@ -61,6 +66,31 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ficha_pr_tica_2_-_parte_2.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ficha_pr_tica_2_-_parte_2 ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/ex1.o: ex1.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ex1.o ex1.c
+
+${OBJECTDIR}/ex2.o: ex2.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ex2.o ex2.c
+
+${OBJECTDIR}/ex3.o: ex3.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ex3.o ex3.c
+
+${OBJECTDIR}/ex4.o: ex4.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ex4.o ex4.c
+
+${OBJECTDIR}/ex5.o: ex5.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ex5.o ex5.c
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}
