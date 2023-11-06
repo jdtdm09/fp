@@ -23,7 +23,7 @@ void ex4(){
 
     if (contador > 0) {
         float media = (float)soma / contador;
-        printf("A média dos valores inseridos é: %.2f\n", media);
+        printf("A média dos valores inseridos é : %.2f\n", media);
     } else {
         printf("Nenhum valor foi inserido.\n");
     }
