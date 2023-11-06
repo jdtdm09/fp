@@ -17,7 +17,8 @@
  * 
  */
 int main() {
-    ex3();
+    //ex3();
+    ex4();
     return 0;
 }
 
