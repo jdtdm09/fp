@@ -12,6 +12,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>ex1.c</itemPath>
+      <itemPath>ex2.c</itemPath>
       <itemPath>ex3.c</itemPath>
       <itemPath>ex4.c</itemPath>
       <itemPath>ex5.c</itemPath>
@@ -39,6 +41,10 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="ex1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ex2.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="ex3.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="ex4.c" ex="false" tool="0" flavor2="0">
@@ -68,6 +74,10 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="ex1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ex2.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="ex3.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="ex4.c" ex="false" tool="0" flavor2="0">

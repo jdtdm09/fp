@@ -7,7 +7,7 @@
  * File:   main.c
  * Author: Wrt
  *
- * Created on 2 de novembro de 2023, 10:04
+ * Created on 7 de novembro de 2023, 17:54
  */
 
 #include <stdio.h>
@@ -17,7 +17,8 @@
  * 
  */
 int main() {
-    //ex3();
+    //ex1();
+    //ex2();
     //ex4();
     ex5();
     return 0;
