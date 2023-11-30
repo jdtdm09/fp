@@ -16,7 +16,6 @@
       <itemPath>ex2.c</itemPath>
       <itemPath>ex3.c</itemPath>
       <itemPath>ex4.c</itemPath>
-      <itemPath>ex5.c</itemPath>
       <itemPath>main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -49,8 +48,6 @@
       </item>
       <item path="ex4.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="ex5.c" ex="false" tool="0" flavor2="0">
-      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
@@ -81,8 +78,6 @@
       <item path="ex3.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="ex4.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="ex5.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>

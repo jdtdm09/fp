@@ -39,7 +39,6 @@ OBJECTFILES= \
 	${OBJECTDIR}/ex2.o \
 	${OBJECTDIR}/ex3.o \
 	${OBJECTDIR}/ex4.o \
-	${OBJECTDIR}/ex5.o \
 	${OBJECTDIR}/main.o
 
 
@@ -61,11 +60,11 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ficha_pr_tica_4_-_parte_1.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ficha_pr_tica_4_-_parte_2.exe
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ficha_pr_tica_4_-_parte_1.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ficha_pr_tica_4_-_parte_2.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ficha_pr_tica_4_-_parte_1 ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ficha_pr_tica_4_-_parte_2 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
 ${OBJECTDIR}/ex1.o: ex1.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -86,11 +85,6 @@ ${OBJECTDIR}/ex4.o: ex4.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ex4.o ex4.c
-
-${OBJECTDIR}/ex5.o: ex5.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ex5.o ex5.c
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}
