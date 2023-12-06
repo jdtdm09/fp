@@ -11,9 +11,4 @@ void ex2(){
     scanf("&d, &nume1");
     printf("Digite o segundo número: ");
     scanf("&d, &nume2");
-    
-    
-    
-    
-    
 }
